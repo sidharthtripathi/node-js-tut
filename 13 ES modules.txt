@@ -1,0 +1,13 @@
+importing 
+eg-> import helps from './file.mjs'
+
+exporting
+in file.mjs
+export default{
+function,
+variable,
+anything
+}
+
+! import
+  both files are needed to be mjs and not js

@@ -1,0 +1,4 @@
+methods through which you can import and exports modules in node js
+
+simply go with the 
+module.exports object 

@@ -1,0 +1,15 @@
+- module is a global object
+- it has a an object named modules
+- you can put variables, functions or anything inside this object
+
+
+  ans as this module object is global it can be used in any file
+
+eg-> in app.js 
+function test(){}
+let testing = 23;
+module.exports = {test,testing}
+
+now recieve thsi object in any file
+in index.js
+eg-> let helpers = require('./app.js')

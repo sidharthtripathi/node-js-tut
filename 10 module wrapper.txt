@@ -1,0 +1,13 @@
+- IIFE in Javascript
+(Immediately invoked function expression)
+- function created and executed right there in single statement
+
+(function test(msg){
+  console.log(msg);
+})('hi there');
+
+- here we are creating and invoking function right here
+...................................
+
+Every module that gets into a file gets wrapped inside a IIFE function
+with parameters like exports,require,module,__filename,__dirname

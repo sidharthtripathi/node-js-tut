@@ -1,0 +1,19 @@
+- create object in data
+  eg->
+  {
+    key:value
+  }
+  
+  key should be string and enclosed in double quotes,
+  while value can be anything
+
+- import this json file in js
+........................
+
+Watch mode in js
+
+run file using watch mode and as you'll save file, it will reaload and run the program by itself
+
+to run watch mode 
+
+node --watch filename.js
