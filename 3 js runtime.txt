@@ -1,0 +1,10 @@
+browser's js runtime is different from node js runtime environment
+
+in browser we have
+- v8 engine (Memory + call stack)
+- evnet loop
+- callback and microtask queue
+- web api (dom + timer + storage)
+.............................
+
+coming to nodeJS javascript runtime environment

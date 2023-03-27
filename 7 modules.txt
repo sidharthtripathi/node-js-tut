@@ -1,0 +1,8 @@
+- A reusable chuck of code
+- each js file can be called as a module
+ Types
+
+- Local -> which we'll create by ourselves
+- buil in -> which are provided by nodejs
+- third party -> someone created it, and we will be using that
+  

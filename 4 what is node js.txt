@@ -1,0 +1,18 @@
+It is runtime environment
+can be run on server to create
+- backend api
+- real time applications
+- streaming services
+- cli tools
+- multiplayer games
+....................
+what is there in nodeJS runtime environment
+
+- dependencies
+    V8(to understand js) , uv (to have access to file system and network) , etc..
+- c++ features (to use low level functionality like fs and networking)
+- js library, js code which internally converts into c++ code to perform  certaint task
+.................
+it is neither a language nor a framework or anything
+just a environment where js can be executed outside of browser
+

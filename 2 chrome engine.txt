@@ -1,0 +1,10 @@
+js can't be understood by computer
+we need to convert this js code into machine code
+and this is done by our v8 engine
+
+
+v8 itself is build using c++.
+and it is responsible to convert js code into machine code
+
+
+now what a developer did is use this v8(c++ program) embed this into his own c++ program, and created a new program called node js.

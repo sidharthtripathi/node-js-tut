@@ -1,0 +1,7 @@
+save a js file with
+console.log('hello world');
+run it in terminal using
+
+node filename.js
+or
+node filename

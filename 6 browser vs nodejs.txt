@@ -1,0 +1,7 @@
+some basic diff in api like
+browser -> dom, timer , fetch api , bom etc
+nodejs -> filesystem, networking etc
+.......
+Nodejs -> we control the environment, no matter who is using our backend service there won't be any difference
+browser-> if he choses an old browser, we have to code according to him
+

@@ -1,0 +1,26 @@
+require() function
+
+...................
+index.js
+
+require('./add.js');
+console.log('hi from index.js');
+.................
+
+................
+add.js
+
+function sum(a,b){
+  return a+b;
+}
+
+console.log(sum(2,3));
+
+................
+
+Now,
+- upon execution of index.js
+on first line, because of require function, everything inside of 
+app.js will be kinda copied to index.js with its own scope
+- then whole index.js will be executed
+ 
