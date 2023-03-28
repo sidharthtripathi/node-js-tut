@@ -1,0 +1,5 @@
+function are first class object
+- meaning they can be passed and returned 
+ types of callback
+ - sync
+ - async

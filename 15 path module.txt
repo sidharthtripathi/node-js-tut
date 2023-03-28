@@ -1,0 +1,17 @@
+allows utility to work with files and folder
+- including this moudule
+- const path = require("node:path")
+
+variables->
+-> __filename
+-> __dirname 
+    both return a complete string of address where is this current file and folder
+
+.....................
+using path modules
+
+->  path.basename() // returns the file or folder name when path given
+->  path.extname()  // returns the file extension name 
+->  path.parse()    // returns an object containing above info
+-> path.isAbsolute() // returns a bool value, whether path is relative or not
+-> path.join('folder','subfolder','file') // returns a string of path according to the OS

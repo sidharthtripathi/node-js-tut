@@ -1,0 +1,17 @@
+event module allows to add our custom events
+using
+
+const eventEmitter = require("node:events")
+this module returns a class encapsulating the functionality of 
+event response and event eventEmitter
+
+now,
+
+const emitter = new eventEmitter();
+
+emitter.emit('event_name') // dispatching event_name
+// other arguments passed will go to the arguments inside of the callback fxn
+
+emitter.on('event_name',callbackFxn) // responding to event
+
+you can add multiple event responses and they all are going to work
