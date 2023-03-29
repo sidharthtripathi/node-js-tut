@@ -1,0 +1,14 @@
+Streams -> chunks of data is sent form A to B, instead of the complete
+          data in one go
+          eg-> downloading a file,streaming a site
+
+Buffers-> suppose a car can transport max of 10 peeps
+          50 people come in one go
+          then, 10 will go and rest 40 will wait in queue
+          (the place where they are waiting is called buffer)
+
+          imagine only 2 person showed up,
+          then car won't even move until a minimum no. of passenger
+          eg 5 have been filled up
+          (its like waiting for data to be processed)
+

@@ -1,0 +1,42 @@
+use fs module to work around with files
+-> reading a file
+  -> sync method
+  -> async method
+
+-> sync method
+
+const fs = require('node:fs')
+const fileData = fs.readFileSync('path_to_file','charEncoding');
+// no execution will further proceed until 2nd line is done executing
+
+-> async method
+
+const fs = require('node:fs')
+fs.readFile('file.txt','utf-8,(error,data)=>{
+  // something wrong occured will be stored in error
+  // if file is read successfully, it will be stored into data
+})
+
+// this callback function passed will be executed when we are 
+    done with reading the file content
+...............................................
+
+
+writing contents to the files 
+It also has two methods
+-> Sync and Async
+
+by default it overwrites the file
+
+Sync method
+
+fs.writeFileSync('filePath','hi there sir');
+
+Async method
+
+fs.writeFile('filePath','hi there',(err)=>{
+  // if some error happens you can show
+  // if all works fine you can do whatever the hell you want
+})
+
+you can place {flag:'a'} in arguments to append and not overwrite the file

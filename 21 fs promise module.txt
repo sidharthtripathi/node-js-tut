@@ -1,0 +1,5 @@
+const fs = require('node:fs/promise');
+
+fs.readFile('fileName','utf-8')
+.then((data)=>{})  // what to do when file reading is done
+.catch((err)=>{})  // what to do when it fails reading file
