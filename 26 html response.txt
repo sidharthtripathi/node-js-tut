@@ -1,0 +1,24 @@
+seding http response
+
+const http = require('http');
+
+const server = http.createServer((req,res)=>{
+  res.writeHead(200,{'content-type':'text/html'})
+  res.end('<h1> hi there sir </h1>')
+})
+
+server.listen(3000)  // or any port number of your choice
+
+
+
+
+....................
+or reading from other file
+
+const fs = require('fs')
+
+const html = fs.readFileSync('path_to_file','utf-8');
+
+and then pass this into response
+
+res.end(html);

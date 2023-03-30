@@ -1,0 +1,23 @@
+it extends the event emitter class
+the server keeps listening to req 
+then respond according to the request.
+..................
+creating a server
+
+const http = require('http')
+const server = http.createServer((req,res)=>{
+  res.writeHead(200);
+  res.end('hello there')
+})       
+
+// req and res are objects
+                                    
+creates a server and whenever a 
+request reaches it executes the callback function
+node handles req and we write code to send back response
+
+
+now invoke listen method passing a port number
+
+server.listen(3000,callbackFxn)
+// if you want to execute something as soon as server starts listening
