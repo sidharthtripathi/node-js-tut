@@ -1,0 +1,5 @@
+cross platoform library built in C 
+-> Enables js to handle async operations
+-> using
+    -> thread pool
+    -> event loop
