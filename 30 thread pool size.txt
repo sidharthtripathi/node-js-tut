@@ -1,0 +1,7 @@
+it has 4 thread by default
+this can be increased 
+process.env.UV_THREADPOOL_SIZE = 5;
+
+but if you increase the thread pool size to more than the
+number of cores your cpu has 
+avg time take for operation to be completed on each thread is increased

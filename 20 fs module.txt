@@ -12,7 +12,7 @@ const fileData = fs.readFileSync('path_to_file','charEncoding');
 -> async method
 
 const fs = require('node:fs')
-fs.readFile('file.txt','utf-8,(error,data)=>{
+fs.readFile('file.txt','utf-8',(error,data)=>{
   // something wrong occured will be stored in error
   // if file is read successfully, it will be stored into data
 })

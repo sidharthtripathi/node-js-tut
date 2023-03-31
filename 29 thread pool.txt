@@ -1,0 +1,2 @@
+just a functionality in libuv that provides
+multiple parallel thread for execution of any operation
