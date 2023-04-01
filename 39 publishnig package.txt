@@ -1,0 +1,3 @@
+something not so neccesary and used 
+just publish you package to npm store
+easy peasy to do anyways

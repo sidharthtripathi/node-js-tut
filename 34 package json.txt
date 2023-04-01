@@ -1,0 +1,24 @@
+  npm config file 
+  and contains meta data about the project in root directory
+
+  inside package.json file
+  ........
+  {
+    'key':'value'
+  }
+
+  // key has to be in double quotes,
+      value can be of any data type
+   
+   generally it contains
+   - name
+   - version
+   - description
+   - keywords
+   - main (entry point of our project)
+
+   // either create this file manually or type
+   
+   npm init
+   then in cli npm is going to ask you all the values for some
+   common keys and json file will be created

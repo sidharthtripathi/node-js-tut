@@ -1,0 +1,21 @@
+in packages file there is one field
+
+{
+  'scripts':{
+    'command_name':'command_to_execute'
+  }
+}
+
+eg to run a js program, we type node index.js in cmd that can be done via
+
+{
+  'scripts':{
+    'shuru': 'node index.js'
+  }
+}
+
+Now to run type,
+
+npm run shuru
+
+and this is do -> node index.js behind the scene

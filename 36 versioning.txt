@@ -1,0 +1,21 @@
+all packages are installed with some version 
+and the version are written like this, 
+  x.y.z
+where
+-> x = major version
+-> y = minor version
+-> z = patch
+
+you fix a bug and it is backward compatible, increse z
+you add a functionality and still backward compatible, increse y
+you make changes to code and is no longer backward compatible, increse x
+
+make sure upon succesful increment, reset the proceeding versions
+
+eg-> 2.3.5
+  and you fix the major version, then it becomes -> 3.0.0
+  and if you fix minor version, then it becomes -> 2.4.0
+  and for path, it becomes -> 2.3.6
+
+- it always start with 0.1.0
+- when it is production ready, then go for 1.0.0

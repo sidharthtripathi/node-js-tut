@@ -1,0 +1,16 @@
+-> largest software library
+-> it is package manager
+
+package manager ?
+sure you can use packages but,
+what if => 
+- update arrives on that package
+- how devloper is going to push package
+- how user is going to use package
+- what is name of function or any other stuff gets change in package
+- how do I know if this package is dependent on other package
+
+To fix all this package problems a package manager is needed ✌️
+
+npm is default for nodejs 
+there are other like yarn and pnpm

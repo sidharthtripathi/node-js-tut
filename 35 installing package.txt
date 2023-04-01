@@ -1,0 +1,17 @@
+npm install package_name 
+
+package will be install in node modules
+in package json a dependecy field will be created with that package name
+
+package-lock json file will also be created upon installion of first
+dependecy
+
+-> To uninstall 
+  - npm uninstall package_name
+
+-> using a package
+  import it just like you do for builtin module using require function
+
+
+-> npm install 
+  - install all the package dependecies present inside the package json file
