@@ -1,0 +1,35 @@
+to include events functionality in our code
+
+const Emitter = require('events');
+
+// creating a Event object from this class
+
+const myE = new Emitter();
+
+// adding listner to an event
+
+myE.on('foo',()=>{})
+
+// firing the event
+
+myE.emit('foo')
+
+// it has nothing to do with libuv
+// pure js
+
+myE.on('foo',()=>{}) // this actually just puts this callback fxn inside a master object
+ then when you fire this event using
+
+ myE.emit('foo')
+ // all the events inside master object named foo will be executed
+ 
+ - They are placed like an array in object,
+    so they will be fired sequentially as they were added in master object
+  
+To fire event only once use
+- myE.once('foo',()=>{})
+  instead of
+- myE.on('foo',()=>{})
+
+the listner gets removed from master object once fired, upon using
+once method
