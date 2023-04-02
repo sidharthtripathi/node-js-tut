@@ -1,0 +1,22 @@
+<div id = 'parent' onclick = 'fxn()'>
+parent
+  <div id = 'child' onclick = 'fxn()'>
+  child
+  </div>
+</div>
+
+if onclick is triggered for child
+for parent it will be executed also
+
+this is called bubbling
+from child to its parents then grandparent
+
+and this is caputuring
+from parent to child then grandchild
+
+
+now while adding eventListner
+pass the event,callback,boolean
+
+false for bubble
+true for caputuring
