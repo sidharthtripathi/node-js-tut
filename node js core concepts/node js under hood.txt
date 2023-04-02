@@ -1,0 +1,37 @@
+processor can only understand machine code
+each processor has own unique language
+we have different processor architechture
+each of these architechture can understand their own language
+architechture like -> arm46 memsx86 
+
+each processor manufactures creates a processor
+- it has its own language in machine code
+- it gives you a manual, hey how to talk to my machine
+- it talks only in 0,1 and or hex to be specific, it knows how to convert hex to binary
+- used if you want to create a compiler or talk directly to cpu
+...............................
+then, Assembly language
+- we use assembler , convert straight into machine code for the specific processor
+- write somethign in assembly
+- assembler then generates an object file
+- then use that object file to generate the executable
+....................
+
+language like c/c++
+- has access to hardware , network card , file systems
+- take code into compiler, converts into assembly, then to machine code
+...............
+
+language like js, python
+- can't access file , can't talk to hardware, can't send network request
+........................
+
+- you write c++ program, js program but
+- you write assembly program for specific os and specific architechture
+- syntax is different for different architechture in assembly
+.........................
+
+Something Cool...
+- you can also specify to the g++ compiler to generate the assembly code for given c++ code 
+- you can also add your application created through c++ to path
+  so that you can access it anywhere 

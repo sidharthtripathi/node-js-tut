@@ -1,0 +1,20 @@
+earlier we studies about char set, unicode / asci -> char to any number
+then we studied about encoding, utf8 -> char to direct binary
+
+just a space of fixed size in memory, whose only purpose is to get and send data
+
+const buffer = Buffer.alloc(8)
+
+// 8 byte buffer allocated in memory and to work with that,
+we have given it a name buffer as variable
+
+console.log(buffer) // output
+// <buffer 00 00 00 00 00 00 00 00> where each 00 represnt a hexadecimal digit and can store data upto 1 byte
+
+1 byte = 8 bits = 0-255 number = 0-ff in hexadecimal
+
+// writing data to buffer
+
+buffer.write('s','utf8')
+
+output becomes // <buffer 73 00 00 00 00 00 00 00>
