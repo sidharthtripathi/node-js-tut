@@ -1,0 +1,23 @@
+so well everything inside the computer is binary
+when you read file using fs module,
+the content is stored as a buffer,
+
+so,
+const fs = require('fs');
+const data = fs.readFileSync('file_path')
+
+Now no matter what the data is, it will be in form of binary
+that binary is coverted into hex then stored inside buffer
+
+
+your harddrive is just full of binary data
+now a particular section out of it can be a file
+ - that file further contains data like
+      -location
+      -protection
+      -name
+      -type
+-Everything inside a PC is just a file
+
+nodejs -> os -> hard drive 
+that's how file management is done by the node js
