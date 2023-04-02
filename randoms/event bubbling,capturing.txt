@@ -5,18 +5,17 @@ parent
   </div>
 </div>
 
-if onclick is triggered for child
-for parent it will be executed also
+by default 
+  caputuring then bubbling happens
+  you can set whether in the caputuring and bubbling cycle
+  the given element will go into caputuring or not
+  this cycle goes from top of dom to the element which is clicked
 
-this is called bubbling
-from child to its parents then grandparent
+by default the setCapture method is false
 
-and this is caputuring
-from parent to child then grandchild
+there is e -> event object in callback function,
+and through which you can stop this cycle right there
 
-
-now while adding eventListner
-pass the event,callback,boolean
-
-false for bubble
-true for caputuring
+(e)=>{
+  e.stopPropagation();
+}
