@@ -1,0 +1,10 @@
+function test(fName ,lNmam,...info){
+	return info;
+}
+
+let result = test('happy','jain','bantai','napur',1,4,5);
+console.log(result);
+
+result will have everything other than the first and last name 
+and it is self explanatory
+this is rest operator

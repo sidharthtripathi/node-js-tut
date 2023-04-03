@@ -1,0 +1,17 @@
+use keyword async before any function and that will become async in nature
+
+async function test(){
+  // this will run upon function calling
+  // now create promise here
+  let p = new Promise((resolve,reject)=>{
+    resolve('working');
+  })
+  // this will run upon function calling 
+
+  let value = await p;
+  // this will run after promise get resolve
+
+}
+
+
+test();
