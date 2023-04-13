@@ -3,6 +3,9 @@ use keyword async before any function and that will become async in nature
 async function test(){
   // this will run upon function calling
   // now create promise here
+  // its your wish to create promise here
+  // you can use promises which are outside this function too,
+  // but accessbile in scope
   let p = new Promise((resolve,reject)=>{
     resolve('working');
   })

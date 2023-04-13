@@ -1,0 +1,16 @@
+// suppose you create an object
+
+const person = {name:"alan", lastName:"walker, age:34 , city:"new york"}
+
+// now you can acccess the key value pairs using
+
+console.log(person.name);
+console.log(person.lastName);
+
+// or you can destructure it using
+
+const {name,lastName} = person;
+
+// now name and lastName are also variable storing that value
+
+// and this is a seperate copy, and has no effect on the original object
